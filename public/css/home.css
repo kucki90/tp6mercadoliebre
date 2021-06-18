@@ -95,42 +95,41 @@ article .descuento, article .descripcion{
 /* footer */
 
 footer{
-    background-color: white;
-    color: var(--color-Grisoscuro);
+    background-color: white; /* color de fondo del footer */
+    color: var(--color-Grisoscuro); /* color del texto del footer */
 }
 
 footer section article{
-    text-align: center;
+    text-align: center; /* alinea en el centro el texto */
 }
 
 /* íconos del footer */
 
 footer i{
-    font-size: 2em;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    color: var(--color-Celeste);
+    font-size: 2em; /* tamaño de los íconos */
+    margin-top: 60px; /* margen externo superior */
+    margin-bottom: 10px; /* margen externo inferior */
+    color: var(--color-Celeste); /* color de loa íconos */
 }
 
 /* texto del footer */
 
 footer section article p, footer section article h3{
-    padding: 0 35px;
-    margin: 0;
+    padding: 0 35px; /* margenes internos laterales */
 }
 
 footer section article h3{
-    font-size: 16px;
+    font-size: 16px; /* tamaño de los titulares del footer */
 }
 
 footer section article {
-    font-size: 12px;
+    font-size: 12px; /* tamaño de los cuerpos de texto del footer */
 }
 
 /* copyright */
 
 .copyright{
-    padding: 0 0 20px 15px;    
-    margin-top: 40px;
-    font-size: 12px;
+    padding: 0 0 20px 15px; /* margenes internos derecho e inferior del copyright */
+    margin-top: 40px; /* margen externo superior del copyright */
+    font-size: 12px; /* tamaño de la tipografìa del copyright */
 }
